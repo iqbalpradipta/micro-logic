@@ -9,7 +9,7 @@ function HeaderComp() {
             Micro Logic Week 4 by Iqbal Pradipta
           </a>
           <div>
-            <Button href="index.html" variant="outline-dark">Home</Button>
+            <Button href="/" variant="outline-dark">Home</Button>
           </div>
         </div>
       </nav>

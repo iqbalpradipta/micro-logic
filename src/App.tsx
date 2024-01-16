@@ -13,7 +13,7 @@ function App() {
                 <Card.Title>Count Duration</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark" href="countDuration.html">Count Duration</Button>
+                <Button variant="outline-warning" className="bg-dark" href="/CountDuration">Count Duration</Button>
               </Card.Footer>
             </Card>
             <Card border="warning" >
@@ -22,7 +22,7 @@ function App() {
                 <Card.Title>Currency Convert</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark" href="currencyConvert.html">Currency Convert</Button>
+                <Button variant="outline-warning" className="bg-dark" href="/CurrencyConvert">Currency Convert</Button>
               </Card.Footer>
             </Card>
             <Card border="warning">
