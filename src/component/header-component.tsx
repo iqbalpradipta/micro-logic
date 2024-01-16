@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
 function HeaderComp() {
   return (
     <>
@@ -10,9 +10,7 @@ function HeaderComp() {
             Micro Logic Week 4 by Iqbal Pradipta
           </a>
           <div>
-            <Link to="/">
-            <Button variant="outline-dark">Home</Button>
-            </Link>
+            <Button href="/" variant="outline-dark">Home</Button>
           </div>
         </div>
       </nav>
