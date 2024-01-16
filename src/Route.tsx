@@ -8,7 +8,7 @@ function Path() {
     <Router>
         <Routes>
             <Route path="/" element={<App />} />
-            <Route path="/countDuration" element={<CountDurration />} />
+            <Route path="/CountDuration" element={<CountDurration />} />
             <Route path="/CurrencyConvert" element={<CurrencyConvert />} />
         </Routes>
     </Router>
