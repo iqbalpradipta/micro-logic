@@ -22,7 +22,7 @@ function App() {
                 <Card.Title>Currency Convert</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark">Currency Convert</Button>
+                <Button variant="outline-warning" className="bg-dark" href="currencyConvert.html">Currency Convert</Button>
               </Card.Footer>
             </Card>
             <Card border="warning">

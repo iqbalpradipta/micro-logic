@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
 function HeaderComp() {
   return (
     <>
@@ -7,6 +8,9 @@ function HeaderComp() {
           <a className="navbar-brand text-dark mx-auto p-2" href="#">
             Micro Logic Week 4 by Iqbal Pradipta
           </a>
+          <div>
+            <Button href="index.html" variant="outline-dark">Home</Button>
+          </div>
         </div>
       </nav>
     </>
