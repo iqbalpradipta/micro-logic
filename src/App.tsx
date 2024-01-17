@@ -90,7 +90,7 @@ function App() {
               </Card.Footer>
             </Card>
           </CardGroup>
-          <Card border="warning" className="mx-auto p-2 mt-3" style={{ width: "18rem" }}>
+          <Card border="warning" className="mx-auto mt-3" style={{ width: "18rem" }}>
             <Card.Img variant="top" src="https://lh3.googleusercontent.com/UDFR7uXaHPbhBuGy_b_02NFJH7ktqjU-nb0JNlVeo22wSPLdR1j5KpvqJtvUD5tzmys" />
             <Card.Body>
                 <Card.Title className="position-relative top-5">Word Scrambl</Card.Title>
