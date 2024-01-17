@@ -24,7 +24,7 @@ function CurrencyConvert() {
 
       setConvertResult(result);
     } catch (error) {
-      console.error("Error fetching exchange rates:", error);
+      throw error
     }
   };
 

@@ -40,12 +40,14 @@ function App() {
             <Card border="warning">
               <Card.Img variant="top" src="https://cdn.freelogovectors.net/wp-content/uploads/2022/01/mobile-legends-logo-freelogovectors.net_-180x62.png" />
               <Card.Body>
-                <Card.Title className="position-relative top-5">Mobile Legends</Card.Title>
+                <Card.Title className="position-relative top-5">KING ML GAME TERBAIK DI DUNIA 🔥</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark" href="#">
-                  Mobile Legends
+              <Link to="/LegendaSeluler">
+                <Button variant="outline-warning" className="bg-dark">
+                  KING ML 🔥
                 </Button>
+                </Link>
               </Card.Footer>
             </Card>
           </CardGroup>
