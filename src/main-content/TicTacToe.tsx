@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import "./TicTacToe.css";
 
 function Square({ value, onSquareClick }: any) {
@@ -71,7 +71,7 @@ function TicTacToe({ x, squares, onPlay }: any) {
         <Square value={squares[6]} onSquareClick={() => handleClick(6)} />
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
-      </div>
+      </div>  
     </>
   );
 }
@@ -88,14 +88,16 @@ function Game() {
 
   return (
     <>
-      <div className="game">
-        <div className="game-board">
-          <TicTacToe x={x} squares={currentSquares} onPlay={handlePlay} />
+      <Container style={{position: "relative", left: "500px", padding: "20px", margin: "100px"}}>
+        <div className="game">
+          <div className="game-board">
+            <TicTacToe x={x} squares={currentSquares} onPlay={handlePlay} />
+          </div>
+          <div className="game-info">
+            <ol>{}</ol>
+          </div>
         </div>
-        <div className="game-info">
-          <ol>{}</ol>
-        </div>
-      </div>
+      </Container>
     </>
   );
 }
