@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Stack, Table } from "react-bootstrap";
+import { Button, Stack, Table } from "react-bootstrap";
 
 function MobileLegends() {
   const [hero, setHero] = useState<any[]>([]);
@@ -33,12 +33,12 @@ function MobileLegends() {
       <p>Search Hero:</p>
       <Stack direction="horizontal" gap={3}>
         <input type="text" name="heroId" value={searchHero} onChange={(e) => setSearchHero(e.target.value)} className="form-control" />
-        <button className="btn btn-warning" type="button" onClick={handleSearch}>
+        <Button className="btn btn-warning" type="button" onClick={handleSearch}>
           Search
-        </button>
-        <button className="btn btn-danger" type="button" onClick={handleReset}>
+        </Button>
+        <Button className="btn btn-danger" type="button" onClick={handleReset}>
           Reset
-        </button>
+        </Button>
       </Stack>
       <Table striped responsive="sm">
         <thead>
