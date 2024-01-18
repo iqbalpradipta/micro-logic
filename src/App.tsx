@@ -15,7 +15,7 @@ function App() {
               </Card.Body>
               <Card.Footer className="text-bg-warning">
                 <Link to="/CountDuration">
-                  <Button variant="outline-warning" className="bg-dark">
+                  <Button variant="outline-dark">
                     Count Duration
                   </Button>
                 </Link>
@@ -31,7 +31,7 @@ function App() {
               </Card.Body>
               <Card.Footer className="text-bg-warning">
                 <Link to="/CurrencyConvert">
-                  <Button variant="outline-warning" className="bg-dark">
+                  <Button variant="outline-dark">
                     Currency Convert
                   </Button>
                 </Link>
@@ -44,7 +44,7 @@ function App() {
               </Card.Body>
               <Card.Footer className="text-bg-warning">
                 <Link to="/LegendaSeluler">
-                  <Button variant="outline-warning" className="bg-dark">
+                  <Button variant="outline-dark">
                     KING ML 🔥
                   </Button>
                 </Link>
@@ -59,7 +59,7 @@ function App() {
               </Card.Body>
               <Card.Footer className="text-bg-warning">
                 <Link to="/TicTacToe">
-                  <Button variant="outline-warning" className="bg-dark">
+                  <Button variant="outline-dark">
                     Tic Tac Toe
                   </Button>
                 </Link>
@@ -72,7 +72,7 @@ function App() {
               </Card.Body>
               <Card.Footer className="text-bg-warning">
                 <Link to="/MatchingCard">
-                  <Button variant="outline-warning" className="bg-dark">
+                  <Button variant="outline-dark">
                     Matching Card
                   </Button>
                 </Link>
@@ -84,22 +84,26 @@ function App() {
                 <Card.Title className="position-relative top-5">Salary Calculating</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark" href="#">
-                  Salary Calculating
-                </Button>
+                <Link to="/SalaryCalculating">
+                  <Button variant="outline-dark">
+                    Salary Calculating
+                  </Button>
+                </Link>
               </Card.Footer>
             </Card>
           </CardGroup>
           <Card border="warning" className="mx-auto mt-3" style={{ width: "18rem" }}>
             <Card.Img variant="top" src="https://lh3.googleusercontent.com/UDFR7uXaHPbhBuGy_b_02NFJH7ktqjU-nb0JNlVeo22wSPLdR1j5KpvqJtvUD5tzmys" />
             <Card.Body>
-                <Card.Title className="position-relative top-5">Word Scrambl</Card.Title>
-              </Card.Body>
-              <Card.Footer className="text-bg-warning">
-                <Button variant="outline-warning" className="bg-dark" href="#">
+              <Card.Title className="position-relative top-5">Word Scrambl</Card.Title>
+            </Card.Body>
+            <Card.Footer className="text-bg-warning">
+              <Link to="/WordScrambl">
+                <Button variant="outline-dark" >
                   Word Scrambl
                 </Button>
-              </Card.Footer>
+              </Link>
+            </Card.Footer>
           </Card>
         </Container>
       </div>
