@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="mt-5">
+      <div className="mt-5 p-1">
         <Container>
           <Stack direction="horizontal" gap={3} className="ms-5 ps-5">
             <Card border="warning" style={{ width: "18rem" }}>
