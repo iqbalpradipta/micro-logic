@@ -1,4 +1,4 @@
-import { Button, Card, CardGroup } from "react-bootstrap";
+import { Button, Card, Stack } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
@@ -7,8 +7,8 @@ function App() {
     <>
       <div className="mt-5">
         <Container>
-          <CardGroup>
-            <Card border="warning">
+          <Stack direction="horizontal" gap={3} className="ms-5 ps-5">
+            <Card border="warning" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://png.pngtree.com/png-clipart/20220803/ourmid/pngtree-clock-icon-png-png-image_6096865.png" />
               <Card.Body>
                 <Card.Title>Count Duration</Card.Title>
@@ -21,7 +21,7 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-            <Card border="warning">
+            <Card border="warning" style={{ width: "18rem" }}>
               <Card.Img
                 variant="top"
                 src="https://png2.cleanpng.com/sh/64289b636ab994e559c1d6833c5e4c79/L0KzQYq3WMA2N5D0f5H0aYP2gLBuTfV5a5lmhtluLYLkhLa0gCVzepZzeAs2Y3Bxhrb5lPVzNZd0itdyZ36wdcnqiPFvb5YyeARuZHn3f375hgZwdKdqhuZuLUXnRInrgvMyamJpSaIDLkG3R4m7VsEyOWY7TaIANUm2R4i5WMMveJ9s/kisspng-exchange-rate-currency-converter-foreign-exchange-credito-revolvente-5d48dbc1b1d108.1478461115650559377283.png"
@@ -37,7 +37,7 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-            <Card border="warning">
+            <Card border="warning" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://cdn.freelogovectors.net/wp-content/uploads/2022/01/mobile-legends-logo-freelogovectors.net_-180x62.png" />
               <Card.Body>
                 <Card.Title className="position-relative top-5">Legenda Seluler</Card.Title>
@@ -50,9 +50,9 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-          </CardGroup>
-          <CardGroup className="mt-5">
-            <Card border="warning">
+            </Stack>
+            <Stack direction="horizontal" gap={3} className="mt-3">
+            <Card border="warning" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://img.freepik.com/premium-vector/tic-tac-toe-hand-drawn-sketch-tic-tac-toe-kids-game-x-o-children-game-set-win-tictactoe_502320-1777.jpg" />
               <Card.Body>
                 <Card.Title>Tic Tac Toe</Card.Title>
@@ -65,8 +65,8 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-            <Card border="warning">
-              <Card.Img variant="top" src="https://clipart-library.com/img/1223500.png" className="mt-5" />
+            <Card border="warning" style={{ width: "15.5rem" }}>
+              <Card.Img variant="top" src="https://clipart-library.com/img/1223500.png" className="mt-5"/>
               <Card.Body>
                 <Card.Title className="mt-5 pt-3 ">Matching Card</Card.Title>
               </Card.Body>
@@ -78,7 +78,7 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-            <Card border="warning">
+            <Card border="warning" style={{ width: "18rem" }}>
               <Card.Img variant="top" src="https://icons.veryicon.com/png/o/miscellaneous/table-shortcuts/calculate-salary.png" />
               <Card.Body>
                 <Card.Title className="position-relative top-5">Salary Calculating</Card.Title>
@@ -91,8 +91,7 @@ function App() {
                 </Link>
               </Card.Footer>
             </Card>
-          </CardGroup>
-          <Card border="warning" className="mx-auto mt-3" style={{ width: "18rem" }}>
+          <Card border="warning" style={{ width: "18rem" }}>
             <Card.Img variant="top" src="https://lh3.googleusercontent.com/UDFR7uXaHPbhBuGy_b_02NFJH7ktqjU-nb0JNlVeo22wSPLdR1j5KpvqJtvUD5tzmys" />
             <Card.Body>
               <Card.Title className="position-relative top-5">Word Scrambl</Card.Title>
@@ -105,6 +104,7 @@ function App() {
               </Link>
             </Card.Footer>
           </Card>
+          </Stack>
         </Container>
       </div>
     </>
