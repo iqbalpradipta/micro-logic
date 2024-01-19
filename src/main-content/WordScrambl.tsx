@@ -42,7 +42,6 @@ function WordScrambl() {
     setRandomWord();
     setIsCorrect(false);
     setUserInput("");
-    alert("Game Reset")
   };
 
   const handleChange = (e: any) => {
@@ -52,7 +51,6 @@ function WordScrambl() {
   const handleSubmit = (e: any) => {
     e.preventDefault();
     if (userInput === originalWord) {
-      alert("Jawaban Anda benar!");
       setScore((prevScore) => prevScore + 1);
     } else {
       alert("Maaf, jawaban Anda salah. Coba lagi!");

@@ -5,7 +5,7 @@ function CurrencyConvert() {
   const [inputValue, setInputValue] = useState<number>(0);
   const [fromCurrency, setFromCurrency] = useState<string>("USD");
   const [toCurrency, setToCurrency] = useState<string>("USD");
-  const [convertResult, setConvertResult] = useState<number | null>(null);
+  const [convertResult, setConvertResult] = useState<any | null>(null);
   const [currencyAPI, setCurrencyAPI] = useState<string>("");
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function CurrencyConvert() {
           <Form.Control
             type="text"
             placeholder="Convert Output"
-            value={convertResult !== null ? convertResult.toFixed(2) : ""}
+            value={convertResult}
             readOnly
           />
         </Form.Group>
