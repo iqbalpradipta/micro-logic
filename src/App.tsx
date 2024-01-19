@@ -71,11 +71,11 @@ function App() {
                 <Card.Title className="mt-sm-5 pt-sm-3 ">Matching Card</Card.Title>
               </Card.Body>
               <Card.Footer className="text-bg-warning">
-                <Link to="/MatchingCard">
+                
                   <Button variant="outline-dark">
                     Matching Card
                   </Button>
-                </Link>
+       
               </Card.Footer>
             </Card>
             <Card border="warning" className="w-25">
